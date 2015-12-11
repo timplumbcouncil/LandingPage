@@ -1,0 +1,112 @@
+body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
+
+.cynhwysyddGlas {max-width: 920px; background-color: rgba(51, 51, 153, 0.45 );  margin: 30px 0; overflow: auto; border-radius: 5px; padding-bottom: 20px}
+.cynhwysyddGlas ul {margin: 0; padding:0;}
+
+.topLogo {background: url(../images/ccc-white.png); width: 270px; height: 123px; margin: 10px auto; display: block; margin-top: 28px}
+.container {max-width: 920px}
+.llywio li {list-style: none; font-size: 0.9em}
+.llywio a {background-color: #dbd7cb ; margin-bottom: 5px; width: 100%; display: block; color: #525250; padding: 19px 0 19px 60px; font-size: 0.9em}
+.testunMawr {    font-size: 1.3em; font-weight: bold;    line-height: 1.2em;}
+
+.pc {background: url(../images/pc.png) 15px 20px no-repeat;}
+.pc:hover {background-color: #333399; color: #ffffff; text-decoration: none}
+
+.lleol {background: url(../images/lleol.png) 15px 20px no-repeat;}
+.lleol:hover {background-color: #0074CB; color: #ffffff; text-decoration: none}
+
+.newyddion {background: url(../images/newyddion.png) 15px 20px no-repeat;}
+.newyddion:hover {background-color: #0099D0; color: #ffffff; text-decoration: none}
+
+.darganfod  {background: url(../images/suitcase.png) 15px 20px no-repeat;}
+.darganfod:hover {background-color:#FD8000; color: #ffffff; text-decoration: none}
+
+.rightBg {}
+
+.llwyd {background-color: #535250; overflow: auto; margin: 0 15px; padding:15px 0 25px 0; color: #ffffff; clear: both;}
+.llwyd li {list-style: none}
+
+.llwyd .cymraeg a {clear: both; margin: 20px auto;}
+.llwyd .saesneg a { clear: both;  margin: 20px auto;}
+
+.alinioDde {text-align: right}
+
+.flleol {background: url(../images/f_lleol.png); width: 83px; height:29px; display:block; margin: 10px 0;}
+.fnewyddion  {background: url(../images/f_newyddion.png); width: 164px; height:18px; display:block; margin: 10px 0;}
+.fdarganfod {background: url(../images/f_darganfod.png); width: 184px; height:43px; display:block; margin: 10px 0;}
+
+.flocal {background: url(../images/f_local.png); width: 91px; height:29px; display:block; margin: 10px 0;}
+.fnews  {background: url(../images/f_newsroom.png); width: 162px; height:20px; display:block; margin: 10px 0;}
+.fdiscover {background: url(../images/f_discover.png); width: 189px; height:31px; display:block; margin: 10px 0;}
+
+.credits {margin: 15px 0 15px 0; font-size: 0.8em; text-align: center}
+
+.facebook, .twitter, .rss, .flickr {width: 29px; height:29px; display: block; float: left; margin: 0 0 0 4px;}
+.facebook {background: url(../images/facebook.png) no-repeat;}
+.twitter {background: url(../images/twitter.png)  no-repeat;}
+.rss {background: url(../images/rss.png)  no-repeat;}
+.flickr {background: url(../images/flickr.png)  no-repeat;}
+
+.hiddenText {display: none;}
+
+.social ul { float:none; text-align: center;}
+.social li {display: inline;}
+.social {width:170px; margin: 0px auto;}
+
+.footer {margin-top: 0px}
+
+.cymraeg, .saesneg {display: none;}
+
+.cymraegbotwm {width: 100%; padding: 8px; color:#ffffff; background-color: #f3a100; display: block; text-transform: uppercase; font-weight: bold}
+.iaith {text-align: center; margin-bottom: 15px; }
+
+.dewisIaith {height: 106px; text-align: center}
+
+label {display: inline;}
+
+a:focus, a:hover, a {color:#ffffff; text-decoration: none}
+
+.introText {height:50px; width: 90%; margin: 0 auto 20px auto; text-align: center; color: #ffffff;}
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .llwyd .cymraeg a {float: left; clear: both; margin: 16px auto}
+        .llwyd .saesneg a {float: right; clear: both; margin: 16px auto}
+     .testunMawr {    font-size: 1.2em; font-weight: bold;    line-height: 1.3em;}
+     .llywio a {  padding: 19px 60px 19px 60px;}
+     .social ul { float:right;}
+    .social li {display: inline; margin: 0px auto;}
+    .credits { text-align: left}
+    .social {width:170px; float: right;}
+    .llwyd {padding: 15px 0 0 0; }
+    .footer {margin-top: 15px}
+    .cymraeg, .saesneg {display: block;}
+
+    .cynhwysyddGlas { margin: 70px 10px 0 10px; }
+
+    .rightBg {background-position: right center}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	.llywio a {  padding: 19px 0 19px 80px; font-size: 1em}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+   
+/*========Background image splash==============*/
+@media only screen and (min-width: 1700px), only screen and (min-device-width: 1700px) {
+body {
+    background:url('../images/background-image-2000.jpg') no-repeat 50% 0;
+}
+}
+@media only screen and (max-width: 1366px) and (min-width: 481px), only screen and (max-device-width: 1366px) and (min-width: 481px) {
+body {
+    background:url('../images/background-image-1420.jpg') no-repeat 50% 0;
+}
+}
