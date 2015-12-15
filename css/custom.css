@@ -1,25 +1,30 @@
 body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
 
-.cynhwysyddGlas {max-width: 920px; background-color: rgba(51, 51, 153, 0.45 );  margin: 30px 0; overflow: auto; border-radius: 5px; padding-bottom: 20px}
+.cynhwysyddGlas {max-width: 920px; background: url(../images/coverbg.png);   margin: 30px 0; overflow: auto; border-radius: 5px; padding-bottom: 20px;}
 .cynhwysyddGlas ul {margin: 0; padding:0;}
 
-.topLogo {background: url(../images/ccc-white.png); width: 270px; height: 123px; margin: 10px auto; display: block; margin-top: 28px}
-.container {max-width: 920px}
-.llywio li {list-style: none; font-size: 0.9em}
-.llywio a {background-color: #dbd7cb ; margin-bottom: 5px; width: 100%; display: block; color: #525250; padding: 19px 0 19px 60px; font-size: 0.9em}
-.testunMawr {    font-size: 1.3em; font-weight: bold;    line-height: 1.2em;}
 
-.pc {background: url(../images/pc.png) 15px 20px no-repeat;}
-.pc:hover {background-color: #333399; color: #ffffff; text-decoration: none}
+.smallRow {margin: 0 -12px;}
+.subText {display: none;}
 
-.lleol {background: url(../images/lleol.png) 15px 20px no-repeat;}
-.lleol:hover {background-color: #0074CB; color: #ffffff; text-decoration: none}
 
-.newyddion {background: url(../images/newyddion.png) 15px 20px no-repeat;}
-.newyddion:hover {background-color: #0099D0; color: #ffffff; text-decoration: none}
+.pc, .lleol, .newyddion, .darganfod{  background-size: 30px 20px !important;}
 
-.darganfod  {background: url(../images/suitcase.png) 15px 20px no-repeat;}
-.darganfod:hover {background-color:#FD8000; color: #ffffff; text-decoration: none}
+.pc {background-color: #333399 !important; color: #ffffff; text-decoration: none}
+.pc {background: url(../images/pc.png) 5px 2px no-repeat;}
+.lleol {background: url(../images/lleol.png) 5px 2px no-repeat;}
+.newyddion {background: url(../images/newyddion.png) 5px 2px no-repeat;}
+.darganfod  {background: url(../images/suitcase.png) 5px 2px no-repeat;}
+
+.saesneg .pc {background: url(../images/pc.png) right top no-repeat; background-position: 106% 6%}
+.saesneg .lleol {background: url(../images/lleol.png) right top no-repeat; background-position: 106% 6%}
+.saesneg .newyddion {background: url(../images/newyddion.png) right top no-repeat; background-position: 106% 6%}
+.saesneg .darganfod  {background: url(../images/suitcase.png) right top no-repeat; background-position: 106% 6%}
+
+
+.lleol {background-color: #0074CB !important; color: #ffffff; text-decoration: none}
+.newyddion {background-color: #0099D0 !important; color: #ffffff; text-decoration: none}
+.darganfod {background-color:#FD8000 !important; color: #ffffff; text-decoration: none}
 
 .rightBg {}
 
@@ -31,13 +36,22 @@ body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
 
 .alinioDde {text-align: right}
 
-.flleol {background: url(../images/f_lleol.png); width: 83px; height:29px; display:block; margin: 10px 0;}
-.fnewyddion  {background: url(../images/f_newyddion.png); width: 164px; height:18px; display:block; margin: 10px 0;}
-.fdarganfod {background: url(../images/f_darganfod.png); width: 184px; height:43px; display:block; margin: 10px 0;}
+.topLogo {background: url(../images/ccc-white.png); width: 270px; height: 123px; margin: 10px auto; display: block; margin-top: 28px}
+.container {max-width: 920px}
+.llywio li {list-style: none; font-size: 0.9em}
+.llywio a {background-color: #dbd7cb ; margin-bottom: 5px; width: 100%; display: block;  padding: 20px 15px 15px 15px; font-size: 1em; text-align: center; font-weight: normal}
+.testunMawr { line-height: 1.3em;}
 
-.flocal {background: url(../images/f_local.png); width: 91px; height:29px; display:block; margin: 10px 0;}
-.fnews  {background: url(../images/f_newsroom.png); width: 162px; height:20px; display:block; margin: 10px 0;}
-.fdiscover {background: url(../images/f_discover.png); width: 189px; height:31px; display:block; margin: 10px 0;}
+
+.flleol {background: url(../images/f_lleol.png) no-repeat top left; width: 50%; height:29px; }
+.fnewyddion  {background: url(../images/f_newyddion.png) no-repeat top left ; width: 50%; height:18px;}
+.fdarganfod {background: url(../images/f_darganfod.png) no-repeat top left; width: 50%; height:43px; }
+
+.flocal {background: url(../images/f_local.png) no-repeat right top ; width: 50%; height:29px; }
+.fnews  {background: url(../images/f_newsroom.png) no-repeat right top ; width: 50%; height:20px; }
+.fdiscover {background: url(../images/f_discover.png) no-repeat right top ; width: 50%; height:31px; }
+
+.flleol, .fnewyddion, .fdarganfod, .flocal, .fnews, .fdiscover {background-size: contain; -ms-behavior: url(../backgroundsize.min.htc); display:block; margin: 10px 0; }
 
 .credits {margin: 15px 0 15px 0; font-size: 0.8em; text-align: center}
 
@@ -51,11 +65,9 @@ body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
 
 .social ul { float:none; text-align: center;}
 .social li {display: inline;}
-.social {width:170px; margin: 0px auto;}
+.social {width:135px; margin: 0px auto;}
 
 .footer {margin-top: 0px}
-
-.cymraeg, .saesneg {display: none;}
 
 .cymraegbotwm {width: 100%; padding: 8px; color:#ffffff; background-color: #f3a100; display: block; text-transform: uppercase; font-weight: bold}
 .iaith {text-align: center; margin-bottom: 15px; }
@@ -70,21 +82,37 @@ a:focus, a:hover, a {color:#ffffff; text-decoration: none}
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+
+        .pc:hover {background-color: #333399; color: #ffffff; text-decoration: none}
+        .lleol:hover {background-color: #0074CB; color: #ffffff; text-decoration: none}
+        .newyddion:hover {background-color: #0099D0; color: #ffffff; text-decoration: none}
+        .darganfod:hover {background-color:#FD8000; color: #ffffff; text-decoration: none}
+
+        .pc {background: url(../images/pc.png) 15px 20px no-repeat;}
+        .lleol {background: url(../images/lleol.png) 15px 20px no-repeat;}
+        .newyddion {background: url(../images/newyddion.png) 15px 20px no-repeat;}
+        .darganfod  {background: url(../images/suitcase.png) 15px 20px no-repeat;}
+
+        .smallRow {margin: 0 -12px;}
+        .subText {display: block;}
+        .llywio a {background-color: #dbd7cb !important; padding: 19px 0 19px 60px; text-align: left; color: #525250; }
         .llwyd .cymraeg a {float: left; clear: both; margin: 16px auto}
         .llwyd .saesneg a {float: right; clear: both; margin: 16px auto}
-     .testunMawr {    font-size: 1.2em; font-weight: bold;    line-height: 1.3em;}
-     .llywio a {  padding: 19px 60px 19px 60px;}
-     .social ul { float:right;}
-    .social li {display: inline; margin: 0px auto;}
-    .credits { text-align: left}
-    .social {width:170px; float: right;}
-    .llwyd {padding: 15px 0 0 0; }
-    .footer {margin-top: 15px}
-    .cymraeg, .saesneg {display: block;}
+        .testunMawr {font-size: 1.2em; font-weight: bold;    line-height: 1.3em;}
 
-    .cynhwysyddGlas { margin: 70px 10px 0 10px; }
+        .social ul { float:right;}
+        .social li {display: inline; margin: 0px auto;}
+        .credits { text-align: left}
+        .social {width:170px; float: right;}
+        .llwyd {padding: 15px 0 0 0; }
+        .footer {margin-top: 15px}
+        .cymraeg, .saesneg {display: block;}
 
-    .rightBg {background-position: right center}
+        .cynhwysyddGlas { margin: 70px 10px 0 10px; }
+
+        .rightBg {background-position: right center !important}
+        .pc, .lleol, .newyddion, .darganfod{  background-size:auto !important;}
+       
     }
 
     /* Medium Devices, Desktops */
