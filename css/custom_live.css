@@ -1,6 +1,6 @@
-body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
+body { background:url(/media/1152197/background-image-1700.jpg) no-repeat 50% 0; }
 
-.cynhwysyddGlas {max-width: 920px; background: url(../images/coverbg.png);   margin: 30px 0; overflow: auto; border-radius: 5px; padding-bottom: 20px;}
+.cynhwysyddGlas {max-width: 920px; background: url(/media/1152200/coverbg.png);   margin: 30px 0; overflow: auto; border-radius: 5px; padding-bottom: 20px;}
 .cynhwysyddGlas ul {margin: 0; padding:0;}
 
 
@@ -11,15 +11,15 @@ body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
 .pc, .lleol, .newyddion, .darganfod{  background-size: 30px 20px !important;}
 
 .pc {background-color: #333399 !important; color: #ffffff; text-decoration: none}
-.pc {background: url(../images/pc.png) 5px 14px no-repeat;}
-.lleol {background: url(../images/lleol.png) 5px 14px no-repeat;}
-.newyddion {background: url(../images/newyddion.png) 5px 14px no-repeat;}
-.darganfod  {background: url(../images/suitcase.png) 5px 14px no-repeat;}
+.pc {background: url(/media/1152211/pc.png) 5px 14px no-repeat;}
+.lleol {background: url(/media/1152209/lleol.png) 5px 14px no-repeat;}
+.newyddion {background: url(/media/1152210/newyddion.png) 5px 14px no-repeat;}
+.darganfod  {background: url(/media/1152213/suitcase.png) 5px 14px no-repeat;}
 
-.saesneg .pc {background: url(../images/pc.png) right top no-repeat; background-position: 103% 14px}
-.saesneg .lleol {background: url(../images/lleol.png) right top no-repeat; background-position: 103% 14px}
-.saesneg .newyddion {background: url(../images/newyddion.png) right top no-repeat; background-position: 103% 14px}
-.saesneg .darganfod  {background: url(../images/suitcase.png) right top no-repeat; background-position: 103% 14px}
+.saesneg .pc {background: url(/media/1152211/pc.png) right top no-repeat; background-position: 103% 14px}
+.saesneg .lleol {background: url(/media/1152209/lleol.png) right top no-repeat; background-position: 103% 14px}
+.saesneg .newyddion {background: url(/media/1152210/newyddion.png) right top no-repeat; background-position: 103% 14px}
+.saesneg .darganfod  {background: url(/media/1152213/suitcase.png) right top no-repeat; background-position: 103% 14px}
 
 
 .lleol {background-color: #0074CB !important; color: #ffffff; text-decoration: none}
@@ -45,21 +45,21 @@ body { background:url('../images/background-image-1700.jpg') no-repeat 50% 0; }
 .testunMawr { line-height: 1.3em;}
 
 
-.flleol {background: url(../images/f_lleol.png) no-repeat top left; width: 50%; height:29px; }
-.fnewyddion  {background: url(../images/f_newyddion.png) no-repeat top left ; width: 50%; height:18px;}
-.fdarganfod {background: url(../images/f_darganfod.png) no-repeat top left; width: 50%; height:43px; }
+.flleol {background: url(/media/1152203/f_lleol.png) no-repeat top left; width: 50%; height:29px; }
+.fnewyddion  {background: url(/media/1152206/f_newyddion.png) no-repeat top left ; width: 50%; height:18px;}
+.fdarganfod {background: url(/media/1152201/f_darganfod.png) no-repeat top left; width: 50%; height:43px; }
 
-.flocal {background: url(../images/f_local.png) no-repeat right top ; width: 50%; height:29px; }
-.fnews  {background: url(../images/f_newsroom.png) no-repeat right top ; width: 50%; height:20px; }
-.fdiscover {background: url(../images/f_discover.png) no-repeat right top ; width: 50%; height:31px; }
+.flocal {background: url(/media/1152204/f_local.png) no-repeat right top ; width: 50%; height:29px; }
+.fnews  {background: url(/media/1152205/f_newsroom.png) no-repeat right top ; width: 50%; height:20px; }
+.fdiscover {background: url(/media/1152202/f_discover.png) no-repeat right top ; width: 50%; height:31px; }
 
 .credits {margin: 15px 0 15px 0; font-size: 0.8em; text-align: center}
 
 .facebook, .twitter, .rss, .flickr {width: 29px; height:29px; display: block; float: left; margin: 0 0 0 4px;}
-.facebook {background: url(../images/facebook.png) no-repeat;}
-.twitter {background: url(../images/twitter.png)  no-repeat;}
-.rss {background: url(../images/rss.png)  no-repeat;}
-.flickr {background: url(../images/flickr.png)  no-repeat;}
+.facebook {background: url(/media/1152207/facebook.png) no-repeat;}
+.twitter {background: url(/media/1152214/twitter.png)  no-repeat;}
+.rss {background: url(/media/1152212/rss.png)  no-repeat;}
+.flickr {background: url(/media/1152208/flickr.png)  no-repeat;}
 
 .hiddenText {display: none;}
 
@@ -89,10 +89,10 @@ a:active, a:focus {background-color:#222222 !important; color:#ffffff;}
         .newyddion:hover {background-color: #0099D0 !important; color: #ffffff; text-decoration: none}
         .darganfod:hover {background-color:#FD8000 !important; color: #ffffff; text-decoration: none}
 
-        .pc {background: url(../images/pc.png) 15px 20px no-repeat;}
-        .lleol {background: url(../images/lleol.png) 15px 20px no-repeat;}
-        .newyddion {background: url(../images/newyddion.png) 15px 20px no-repeat;}
-        .darganfod  {background: url(../images/suitcase.png) 15px 20px no-repeat;}
+        .pc {background: url(/media/1152211/pc.png) 15px 20px no-repeat;}
+        .lleol {background: url(/media/1152209/lleol.png) 15px 20px no-repeat;}
+        .newyddion {background: url(/media/1152210/newyddion.png) 15px 20px no-repeat;}
+        .darganfod  {background: url(/media/1152213/suitcase.png) 15px 20px no-repeat;}
 
         .smallRow {margin: 0 -12px;}
         .subText {display: block;}
@@ -133,11 +133,11 @@ a:active, a:focus {background-color:#222222 !important; color:#ffffff;}
 /*========Background image splash==============*/
 @media only screen and (min-width: 1700px), only screen and (min-device-width: 1700px) {
 body {
-    background:url('../images/background-image-2000.jpg') no-repeat 50% 0;
+    background:url(/media/1152198/background-image-2000.jpg) no-repeat 50% 0;
 }
 }
 @media only screen and (max-width: 1366px) and (min-width: 481px), only screen and (max-device-width: 1366px) and (min-width: 481px) {
 body {
-    background:url('../images/background-image-1420.jpg') no-repeat 50% 0;
+    background:url(/media/1152196/background-image-1420.jpg) no-repeat 50% 0;
 }
 }

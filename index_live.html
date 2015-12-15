@@ -1,12 +1,14 @@
+<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Carmarthenshire County Council Website : Gwefan Cyngor Sir Gaerfyrddin</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/landing.css" rel="stylesheet">
   <link href="http://www.carmarthenshire.gov.wales/apple-touch-icon.png" rel="apple-touch-icon" />
   <link href="http://www.carmarthenshire.gov.wales/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
   <link href="http://www.carmarthenshire.gov.wales/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
@@ -14,9 +16,10 @@
   <link href="http://www.carmarthenshire.gov.wales/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
   <link href="http://www.carmarthenshire.gov.wales/icon-hires.png" rel="icon" sizes="192x192" />
   <link href="http://www.carmarthenshire.gov.wales/icon-normal.png" rel="icon" sizes="128x128" />
-  <meta name="description" content="Carmarthenshire County Council Website, Gwefan Cyngor Sir Gaerfyrddin">
-  <meta name="keywords" content="Carmarthenshire County Council, Cyngor Sir Gaerfyrddin">
-  <meta name="pageID" id="pageID" content="1413">
+ <meta name="description" content="<umbraco:Item field="seoDescription" runat="server" />">
+    <meta name="keywords" content="<umbraco:Item field="seoKeywords" runat="server" />">
+    <meta name="pageID" id="pageID" content="<umbraco:Item field="pageID" runat="server" />">
+    <!--<umbraco:Macro Alias="CreateLanguageMetadata" runat="server" />-->
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -98,4 +101,5 @@
   ga('send', 'pageview');
   </script>
 </body>
-</html>
+  </html><!--TP-->
+</asp:Content>
